@@ -1,0 +1,54 @@
+[
+  {
+      "link": "https://www.youtube.com/@rhinodognest",
+      "name": "YouTube",
+      "brand": "youtube"
+  },
+  {
+      "lang": "ru",
+      "link": "https://career.habr.com/tug",
+      "name": "Habr",
+      "icon": "folder"
+  },
+  {
+      "lang": "ru",
+      "link": "https://hh.ru/applicant/resumes/view?resume=17a3745bff0091c0340039ed1f736563726574",
+      "name": "Lead @ HeadHunter",
+      "icon": "folder"
+  },
+  {
+      "lang": "ru",
+      "link": "https://hh.ru/applicant/resumes/view?resume=29050314ff010d03f10039ed1f766570316f4c",
+      "name": "Senior @ HeadHunter",
+      "icon": "folder"
+  },
+
+  {
+      "link": "https://www.linkedin.com/in/truetug/",
+      "name": "LinkedIn",
+      "brand": "linkedin"
+  },
+  {
+      "lang": "ru",
+      "link": "https://gitverse.ru/tug",
+      "name": "GitVerse",
+      "brand": "git"
+  },
+  {
+      "link": "https://github.com/truetug",
+      "name": "GitHub",
+      "brand": "github-alt"
+  },
+  {
+      "lang": "en",
+      "link": "https://bitbucket.org/truetug",
+      "name": "Bitbucket",
+      "brand": "bitbucket"
+  },
+  {
+      "lang": "en",
+      "link": "https://stackoverflow.com/users/413560/tug",
+      "name": "Stack Overflow",
+      "brand": "stack-overflow"
+  }
+]

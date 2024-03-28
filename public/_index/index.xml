@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_Indices on Бульдог × Носорог</title>
+    <link>http://localhost:1313/_index/</link>
+    <description>Recent content in _Indices on Бульдог × Носорог</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>tug</copyright>
+    <lastBuildDate>Sun, 25 Feb 2024 03:49:43 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/_index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My New Page</title>
+      <link>http://localhost:1313/_index/ru/</link>
+      <pubDate>Sun, 25 Feb 2024 03:49:43 +0300</pubDate>
+      <guid>http://localhost:1313/_index/ru/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+    </item>
+  </channel>
+</rss>

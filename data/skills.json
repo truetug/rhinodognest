@@ -1,0 +1,61 @@
+[
+  {
+      "grouping": "Base",
+      "skills":[
+        "Architecture Design",
+        "Web Development",
+        "Microservices",
+        "RESTful APIs",
+        "Hiring Team",
+        "Team Building",
+        "HighLoad"
+      ]
+  },
+  {
+      "grouping": "Python",
+      "skills":[
+        "Python",
+        "FastAPI", 
+        "Django",
+        "Flask"
+      ]
+  },
+  {
+      "grouping": "Tools",
+      "skills":[
+        "Docker",
+        "Kubernetes",
+        "Nginx",
+        "Jira", 
+        "Confluence", 
+        "GitLab", 
+        "GitHub",
+        "BitBucket",
+        {"name":"DocHub", "link":"https://dochub.ru"}
+      ]
+  },
+  {
+      "grouping": "Storages and queues",
+      "skills":[
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "MongoDB",
+        "Redis",
+        "Memcached",
+        "RabbitMQ", 
+        "Kafka", 
+        "Celery"
+      ]
+  },
+  {
+      "grouping": "Other",
+      "skills":[
+        "JavaScript",
+        "React", 
+        "Vue", 
+        "jQuery",
+        "PHP"
+      ]
+  }
+]

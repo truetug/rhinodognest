@@ -1,0 +1,65 @@
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+  <div class="my-auto">
+    <div class="resume-item d-flex flex-column flex-md-row">
+      <div class="mr-auto">
+
+        <h1 class="mb-0">{{ .Site.Params.firstName }}
+          <span class="text-primary">{{ .Site.Params.lastName }}</span>
+        </h1>
+        <div class="subheading mb-5">
+          <a href="https://{{ .Site.Params.telegram }}.t.me">{{(or (.Site.Params.telegram_display) ( printf "@%s" .Site.Params.telegram ) )}}</a>
+          ·
+          <a href="mailto:{{ substr .Site.Params.email 0 4 }}-remove-{{ substr .Site.Params.email 4 }}">
+            {{ substr .Site.Params.email 0 4 }}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 4 }}
+          </a>
+        </div>
+
+      </div>
+
+      {{ if .Site.Params.showQr }}
+        {{ partial "contact-qr" . }}
+      {{ end }}
+  </div>
+  <div>
+    {{ .Content }}
+
+    {{ with .GetPage "about" }}
+      {{ .Content }}
+    {{ end }}
+    
+    {{ if .Site.Params.showCertifications }}
+    <h3>{{ i18n "certifications" }}</h3>
+    <ul class="list-inline list-social-icons mb-0">
+      {{ range .Site.Data.certifications }}
+      <li class="list-inline-item">
+        <a href="{{ .proof }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me">
+          <img src="{{ .badge }}" width=75 />
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ if .Site.Params.showSocializations }}
+    <h3>{{ i18n "socialization" }}</h3>
+    <ul class="list-inline list-social-icons mb-0">
+      {{ range .Site.Data.socialization }}
+      {{ if or (not .lang) (eq .lang $.Page.Lang) }}
+      <li class="list-inline-item">
+        <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            {{ if .icon }}
+            <i class="fa {{ if .icon }}fa-{{ .icon }}{{ else }}fa-{{ urlize .name }}{{ end }} fa-stack-1x fa-inverse"></i>
+            {{ else }}
+            <i class="fab {{ if .brand }}fa-{{ .brand }}{{ else }}fa-{{ urlize .name }}{{ end }} fa-stack-1x fa-inverse"></i>
+            {{ end }}
+          </span>
+        </a>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>

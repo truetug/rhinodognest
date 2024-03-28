@@ -1,0 +1,14 @@
+- id: contact
+  translation: "Contacts"
+- id: blog
+  translation: "Blog"
+- id: about
+  translation: "About"
+
+- id: Languages, Operating Systems & Tools
+  translation: "Languages"
+
+- id: socialization
+  translation: ""
+- id: skills
+  translation: "Skills"

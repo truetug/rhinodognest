@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Бульдог × Носорог / Персональный сайт · Резюме · Блог / Сергей Трофимов · Python</title>
+    <link>https://truetug.info/blog/</link>
+    <description>Recent content in Blogs on Бульдог × Носорог / Персональный сайт · Резюме · Блог / Сергей Трофимов · Python</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>tug</copyright>
+    <lastBuildDate>Mon, 26 Feb 2024 17:43:50 +0300</lastBuildDate>
+    <atom:link href="https://truetug.info/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample</title>
+      <link>https://truetug.info/sample/</link>
+      <pubDate>Mon, 26 Feb 2024 17:43:50 +0300</pubDate>
+      <guid>https://truetug.info/sample/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My New Post</title>
+      <link>https://truetug.info/my-new-post/</link>
+      <pubDate>Sun, 25 Feb 2024 03:49:50 +0300</pubDate>
+      <guid>https://truetug.info/my-new-post/</guid>
+      <description>This is a page about »My New Post«.</description>
+    </item>
+  </channel>
+</rss>

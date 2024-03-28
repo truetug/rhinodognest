@@ -1,0 +1,84 @@
+baseURL = "https://truetug.info/"
+
+theme = "tug-resume"
+
+title = "Бульдог × Носорог / Персональный сайт · Резюме · Блог / Сергей Трофимов · Python"
+author = "Sergey Trofimov"
+copyright = "tug"
+languageCode = "ru-ru"
+defaultContentLanguage = "ru"
+
+enableRobotsTXT = true
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  telegram = "truetug"
+  email = "truetug@gmail.com"
+  favicon = "/favicon.ico"
+  firstName = "Сергей"
+  lastName = "Трофимов"
+  phone = "+7 926 5886678"
+  profileImage = "img/avatar_square.jpg"
+  showQr = true
+  showContact = false
+  sections = ["skills", "experience"]
+  # ["skills", "experience", "education", "blog"]
+  showSocializations = true
+  twitter_handle = "3 Languages Default"
+  
+  google_analytics = "XX-123446-01"
+  yandex_metric = ""
+  qform = false
+
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+
+[languages]
+  [languages.ru]
+    languageName = "Русский"
+    weight = 0
+    [languages.ru.params]
+      firstName = "Сергей"
+      lastName = "Трофимов"
+      twitter_handle = "3 Languages Russian"
+
+#  [languages.en]
+#    languageName = "English"
+#    weight = 1
+#    [languages.en.params]
+#      firstName = "Sergey"
+#      lastName = "Trofimov"
+#      twitter_handle = "3 Languages English"
+
+[deployment]
+
+	[deployment.targets]
+  	# An arbitrary name for this target.
+  	name = "production"
+
+  	# URL specifies the Go Cloud Development Kit URL to deploy to. Examples:
+  	# URL = "<FILL ME IN>"
+
+  	# Google Cloud Storage -- see https://gocloud.dev/howto/blob/#gcs
+  	#URL = "gs://<Bucket Name>"
+
+  	# Amazon Web Services S3; see https://gocloud.dev/howto/blob/#s3
+  	# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+  	URL = "s3://ci64913-truetuginfo?prefix=sample/&endpoint=https://s3.timeweb.com&region=ru-1"
+  	# export AWS_S3_ENDPOINT=replace-with-minio-url
+  	# export AWS_ACCESS_KEY_ID=ci64913
+  	# export AWS_SECRET_ACCESS_KEY=jbvg8dfameblc78bjk7hvlmyfpqudz-d
+
+  	# Microsoft Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
+  	#URL = "azblob://$web"

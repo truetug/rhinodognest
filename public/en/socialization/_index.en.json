@@ -1,0 +1,19 @@
+[
+  {
+      "link": "https://www.linkedin.com/in/truetug/",
+      "name": "LinkedIn"
+  },
+  {
+      "link": "https://github.com/truetug",
+      "name": "GitHub",
+      "icon": "github-alt"
+  },
+  {
+      "link": "https://bitbucket.org/truetug",
+      "name": "Bitbucket"
+  },
+  {
+      "link": "https://stackoverflow.com/users/413560/tug",
+      "name": "Stack Overflow"
+  }
+]

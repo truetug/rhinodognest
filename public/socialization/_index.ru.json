@@ -1,0 +1,27 @@
+[
+  {
+      "link": "https://gitverse.ru/tug",
+      "name": "GitVerse",
+      "icon": "git"
+  },
+  {
+      "link": "https://career.habr.com/tug",
+      "name": "Habr",
+      "icon": "briefcase"
+  },
+  {
+      "link": "https://hh.ru/applicant/resumes/view?resume=17a3745bff0091c0340039ed1f736563726574",
+      "name": "Lead @ HeadHunter",
+      "icon": "folder-open"
+  },
+  {
+      "link": "https://hh.ru/applicant/resumes/view?resume=29050314ff010d03f10039ed1f766570316f4c",
+      "name": "Senior @ HeadHunter",
+      "icon": "folder-open"
+  },
+  {
+      "link": "https://www.youtube.com/channel/UCnl3coCetsf3fs8AL2l5q6w",
+      "name": "YouTube",
+      "icon": "youtube-play"
+  }
+]

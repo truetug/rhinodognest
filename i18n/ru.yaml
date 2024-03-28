@@ -1,0 +1,26 @@
+- id: contact
+  translation: "Контакты"
+- id: blog
+  translation: "Блог"
+- id: about
+  translation: "Обо мне"
+
+- id: socialization
+  translation: ""
+- id: skills
+  translation: "Компетенции"
+
+- id: Web Development
+  translation: "Веб-разработка"
+- id: Microservices
+  translation: "Микросервисы"
+- id: Architecture Design
+  translation: "Дизайн архитектуры"
+- id: RESTful APIs
+  translation: "RESTful APIs"
+- id: Team Building
+  translation: "Построение команды"
+- id: Hiring Team
+  translation: "Найм команды"
+- id: HighLoad
+  translation: "Высоконагруженные системы"
